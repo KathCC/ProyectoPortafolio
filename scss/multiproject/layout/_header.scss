@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    height: 650px;
+    background-image: url(/images/snow-capped-mountains-under-the-cloudy-skies-1054289.jpg);
+    background-size: cover;
+    background-position: center;
+
+    &__menu{
+        background-color: black;
+        border-bottom: 2px solid crimson;
+        opacity: 70%;
+    }
+}
+
+
+.nav-link:hover{
+    background-color: white;
+    color:crimson;
+}
+
+.nav-item--logo{
+    float: left;
+}
+
+.nav-link{
+    font-size: 15px;
+    color: honeydew;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.nav-link--first{
+    font-size: 15px;
+    color: honeydew;
+    font-weight: 600;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}

@@ -1,0 +1,606 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  color: #333;
+}
+
+.section__home {
+  width: 720px;
+  height: 55%;
+  padding: 20px;
+  margin-top: 150px;
+  margin-left: 100px;
+  overflow: hidden;
+  border-left: 5px solid #6a1b9a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #ffffffcc;
+}
+
+.section__profile {
+  width: 70%;
+  height: 90%;
+  margin: 15px;
+  float: left;
+  background-color: none;
+}
+
+.section__text {
+  color: #4a4a4a;
+  font-weight: 400;
+  text-decoration-thickness: 20px;
+}
+
+.section__btn {
+  margin-top: 13px;
+  margin-bottom: 2px;
+  margin-left: 50px;
+  background-color: #6a1b9a;
+  opacity: 90%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font-weight: 500;
+  border-color: #e0c3fc;
+}
+
+.section__btn:hover {
+  background-color: #e0c3fc;
+  color: #6a1b9a;
+}
+
+.section__btn--home {
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: #6a1b9a;
+  opacity: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  border-color: #e0c3fc;
+}
+
+.section__btn--home:hover {
+  background-color: #e0c3fc;
+  color: #6a1b9a;
+}
+
+.section__picture {
+  width: 20%;
+  margin: 5px;
+  float: left;
+  background-color: none;
+}
+
+.section__profilepic {
+  width: 180px;
+  height: 180px;
+  border-radius: 150px;
+  border-color: #6a1b9a;
+  border-style: solid;
+}
+
+.section__about {
+  width: 100%;
+  height: 650px;
+  padding: 30px;
+  margin-top: 50px;
+  overflow: hidden;
+  background: linear-gradient(white, lightgrey);
+  background-size: cover;
+  background-position: center;
+}
+
+.section__presentation {
+  width: 60%;
+  height: 25%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 100px;
+  overflow: hidden;
+  background-color: none;
+}
+
+.section__title {
+  width: 30%;
+  float: left;
+  color: black;
+  font-weight: 600;
+  background-color: none;
+  border-bottom: 5px solid #6a1b9a;
+}
+
+.section__par {
+  width: 70%;
+  height: 50px;
+  padding: 15px;
+  float: left;
+  color: black;
+  font-weight: 500;
+  font-size: 21px;
+  background-color: none;
+  cursor: pointer;
+}
+
+.section__containerinfo {
+  width: 80%;
+  height: 400px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  overflow: hidden;
+  background-color: none;
+}
+
+.section__info {
+  width: 280px;
+  height: 355px;
+  border-right: 5px solid #6a1b9a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  float: left;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color: none;
+}
+
+.section__aboutpic {
+  width: 250px;
+  height: 350px;
+  border-color: whitesmoke;
+  border-radius: 2%;
+  border-style: solid;
+}
+
+.section__aboutinfo {
+  width: 50%;
+  height: 320px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: none;
+}
+
+.section__parrafito2 {
+  font-size: 13px;
+}
+
+.section__skills {
+  width: 100%;
+  height: 650px;
+  padding: 10px;
+  margin-top: 50px;
+  overflow: hidden;
+  background: linear-gradient(white, lightgrey);
+  background-size: cover;
+  background-position: center;
+}
+
+.section__containerskills {
+  width: 72%;
+  overflow: hidden;
+  margin-left: 200px;
+  background-color: none;
+}
+
+.section__frontend {
+  width: 450px;
+  height: 350px;
+  margin-left: 30px;
+  background-color: #4a148c;
+  border-right: 1px solid #e0c3fc;
+  text-align: center;
+  float: left;
+}
+
+.section__backend {
+  width: 450px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  background-color: #4a148c;
+}
+
+.section__icons {
+  color: #FFFFFF;
+  margin: 10px;
+  font-size: 65px;
+  padding: 8px;
+  transition: .3s linear;
+}
+
+.section__icons:hover {
+  color: #6a1b9a;
+  cursor: pointer;
+}
+
+.section__others {
+  width: 450px;
+  height: 370px;
+  margin-left: 250px;
+  display: none;
+  float: inline-start;
+  text-align: center;
+  background-color: yellow;
+}
+
+.section__btn--skills {
+  margin-left: 43%;
+  margin-top: 15px;
+  background-color: #6a1b9a;
+  opacity: 90%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font-weight: 500;
+  border-color: #e0c3fc;
+}
+
+.section__btn--skills:hover {
+  background-color: #e0c3fc;
+  color: #6a1b9a;
+}
+
+.section__projects {
+  width: 100%;
+  height: 650px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 4%;
+  background: linear-gradient(white, lightgrey);
+}
+
+.section__cards {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: linear-gradient(white, #6a1b9a);
+}
+
+.section__hobbies {
+  padding: 10%;
+}
+
+.section__contacme {
+  padding: 10%;
+}
+
+.section__form {
+  padding: 4%;
+  border-radius: 5%;
+  background: linear-gradient(white, #6a1b9a);
+  text-align: center;
+}
+
+.section__form div {
+  text-align: center;
+  margin: 2%;
+  margin-left: 19%;
+}
+
+@media screen and (max-width: 1028px) {
+  .section__home {
+    width: 90%;
+    height: 500px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 0%;
+    overflow: hidden;
+    border-left: none;
+  }
+  .section__profile {
+    width: 70%;
+    height: 300px;
+    margin: 0%;
+    text-align: center;
+    float: left;
+    border-right: solid #6a1b9a;
+  }
+  .section__picture {
+    width: 155px;
+    height: 150px;
+    margin-top: 28px;
+    margin-left: 0%;
+    float: right;
+  }
+  .section__profilepic {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border-color: #6a1b9a;
+    border-style: solid;
+  }
+  .section__icons {
+    color: #FFFFFF;
+    margin: 10px;
+    font-size: 65px;
+    padding: 8px;
+    transition: .3s linear;
+  }
+}
+
+/*About me*/
+@media screen and (max-width: 600px) {
+  .section__presentation {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 0%;
+    overflow: hidden;
+    text-align: center;
+    background-color: none;
+  }
+  .section__title {
+    width: 100%;
+    float: none;
+    text-align: center;
+    font-weight: 400;
+    background-color: none;
+    border-bottom: 5px solid #6a1b9a;
+  }
+  .section__par {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    float: none;
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: none;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1026px) {
+  .section__about {
+    width: 100%;
+    height: 100%;
+  }
+  .section__containerinfo {
+    width: 100%;
+    height: 90%;
+    margin-left: 0%;
+  }
+  .section__info {
+    width: 100%;
+    height: 305px;
+    margin: 0%;
+    border-right: none;
+    border-bottom: #6a1b9a;
+  }
+  .section__aboutpic {
+    width: 320px;
+    height: 300px;
+  }
+  .section__aboutinfo {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    margin: 0%;
+    text-align: center;
+  }
+  .section__btn {
+    margin: 0%;
+  }
+}
+
+/*SKILLS*/
+@media screen and (max-width: 1025px) {
+  .section__skills {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+  }
+  .section__containerskills {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    background: repeating-linear-gradient(black, #333232);
+  }
+  .section__frontend {
+    width: 350px;
+    height: 350px;
+    margin: 0%;
+    background-color: #4a148c;
+    border-bottom: 1px solid #e0c3fc;
+    text-align: center;
+    float: left;
+  }
+  .section__backend {
+    width: 350px;
+    height: 350px;
+    margin: 0%;
+    text-align: center;
+    float: right;
+    background-color: #4a148c;
+  }
+  .section__icons {
+    color: #FFFFFF;
+    margin: 12px;
+    font-size: 55px;
+    padding: 8px;
+    transition: .3s linear;
+  }
+  .section__projects {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/*PROJECTS*/
+.article__card {
+  width: 250px;
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  background: #a4a6a7;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.article__card:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.article__card img {
+  width: 250px;
+  height: 400px;
+  margin: 0%;
+  background-size: cover;
+  background-position: center;
+}
+
+.article__containerimg {
+  position: relative;
+  width: 100%;
+  height: 370px;
+  margin: auto;
+  background-size: cover;
+  transition: all 0.6s;
+}
+
+.article__containerimg p {
+  position: absolute;
+  left: 20px;
+  top: 120px;
+  color: ivory;
+}
+
+.article__containerimg::before {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  content: "";
+  width: 80%;
+  height: 2px;
+  color: skyblue;
+  transition: all 0.6s;
+}
+
+.article__containerimg::after {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  content: "";
+  width: 80%;
+  height: 2px;
+  transition: all 0.6s;
+}
+
+.article__containerimg h4 {
+  transform: translateX(-110%);
+}
+
+.article__card p {
+  padding: 0 1rem;
+  font-weight: 300;
+  font-size: 16px;
+  transform: translateX(120%);
+}
+
+.article__containerimg:hover {
+  opacity: 99%;
+}
+
+.article__containerimg:hover h4 {
+  transform: translateX(0%);
+  transition: all 0.6s;
+}
+
+.article__containerimg:hover p {
+  transform: translateX(0%);
+  transition: all 0.6s;
+}
+
+.card__title {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.header {
+  width: 100%;
+  height: 650px;
+  background-image: url(/images/snow-capped-mountains-under-the-cloudy-skies-1054289.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__menu {
+  background-color: black;
+  border-bottom: 2px solid #6a1b9a;
+  opacity: 70%;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: #6a1b9a;
+}
+
+.nav-item--logo {
+  float: left;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: honeydew;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+.nav-link--first {
+  font-size: 15px;
+  color: honeydew;
+  font-weight: 600;
+  font-variant: small-caps;
+  text-transform: none;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  margin-top: 50px;
+  padding-top: 5px;
+  text-align: center;
+  background: linear-gradient(#6a1b9a, #b30f30);
+}
+
+.footer_paragraph {
+  text-align: center;
+  font-size: 25px;
+  font-variant: small-caps;
+  color: black;
+}
+
+.footer__links {
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 25px;
+}
+
+.footer__links:hover {
+  color: black;
+  font-size: 30px;
+}

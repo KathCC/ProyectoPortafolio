@@ -1,0 +1,434 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+.section{
+    &__home{
+        width: 720px;
+        height: 55%;
+        padding: 20px;
+        margin-top: 150px;
+        margin-left: 100px;
+        overflow: hidden;
+        border-left: 5px solid crimson;
+    }
+
+    &__profile{
+        width: 70%;
+        height: 90%;
+        margin: 15px;
+        float: left;
+        /*background-color:blue; */
+    }
+    &__text{
+        color:crimson;
+        font-weight: 400; 
+        font-variant: small-caps;
+        text-decoration-thickness: 20px;
+    }
+    &__btn{
+        margin-top: 13px;
+        margin-bottom: 2px;
+        margin-left: 50px;
+        background-color: crimson;
+        opacity: 90%;
+        border-radius: 15px;
+        box-shadow: darkgray;
+        text-transform: uppercase;
+        font-weight: 500;
+        border-color: thistle;
+    }
+    &__btn:hover{
+        background-color: whitesmoke;
+        color: crimson;
+    }
+    &__btn--home{
+        margin-top: 20px;
+        margin-left: 50px;
+        background-color: crimson;
+        opacity: 90%;
+        border-radius: 8px;
+        box-shadow: darkgray;
+        font-weight: 500;
+        border-color: thistle;
+    }
+    &__btn--home:hover{
+        background-color: whitesmoke;
+        color: crimson;
+    }
+    &__picture{
+        width: 20%;
+        margin: 5px;
+        float: left;
+        /*background-color:brown;*/
+    }
+    &__profilepic{
+        width: 180px;
+        height: 180px;
+        border-radius: 150px;
+        border-color: crimson;
+        border-style: solid;
+    }
+    
+    &__about{
+        width: 100%;
+        height: 650px;
+        padding: 30px;
+        margin-top: 50px;
+        overflow: hidden;
+        background: linear-gradient(white, lightgrey);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__presentation{
+        width: 60%;
+        height: 25%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 100px;
+        overflow: hidden;
+        background-color: none;
+    }
+
+    &__title{
+        width: 30%;
+        float: left;
+        color: black;
+        font-weight: 600;
+        font-variant: small-caps;
+        background-color: none;
+        border-bottom: 5px solid crimson;
+    }
+
+    &__par{
+        width: 70%;
+        height: 50px;
+        padding: 15px;
+        float: left;
+        color: black;
+        font-weight: 500;
+        font-size: 21px;
+        font-variant: small-caps;
+        background-color: none;
+        cursor: pointer;
+    }
+    &__containerinfo{
+        width: 80%;
+        height: 400px;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        overflow: hidden;
+        background-color: none;
+    }
+    &__info{
+        width: 280px;
+        height: 355px;
+        border-right: 5px solid crimson;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        float: left;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        background-color: none;
+    }
+    &__aboutpic{
+        width: 250px;
+        height: 350px;
+        border-color: whitesmoke;
+        border-radius: 2%;
+        border-style: solid;
+    }
+    &__aboutinfo{
+        width: 50%;
+        height: 320px;
+        margin-top: 20px;
+        margin-bottom: 2px;;
+        border-radius: 5%;
+        overflow: hidden;
+        background-color: none;
+    }
+    &__parrafito2{
+        font-size: 13px;
+    }
+    &__skills{
+        width: 100%;
+        height: 650px;
+        padding: 10px;
+        margin-top: 50px;
+        overflow: hidden;
+        background: linear-gradient(white, lightgrey);
+        background-size: cover;
+        background-position: center;
+    }
+    &__containerskills{
+        width: 72%;
+        overflow: hidden;
+        margin-left: 200px;
+        background-color: none;
+    }
+    &__frontend{
+        width: 450px;
+        height: 350px;
+        margin-left: 30px;
+        background-color: black;
+        border-right: 1px solid white;
+        text-align: center;
+        float: left;
+    }
+    &__backend{
+        width: 450px;
+        height: 350px;
+        text-align: center;
+        float: left;
+        background-color: black;
+    }
+    
+    &__icons{
+        color: #FFFFFF;
+        margin: 10px;
+        font-size: 65px;
+        padding: 8px;
+        transition: .3s linear;
+    }
+    &__icons:hover{
+        color: crimson;
+        cursor: pointer;
+    }
+    &__others{
+        width: 450px;
+        height: 370px;
+        margin-left: 250px;
+        display: none;
+        float: inline-start;
+        text-align: center;
+        background-color: yellow;
+    }
+    &__btn--skills{
+        margin-left: 43%;
+        margin-top: 15px;
+        background-color: crimson;
+        opacity: 90%;
+        border-radius: 15px;
+        box-shadow: darkgray;
+        text-transform: uppercase;
+        font-weight: 500;
+        border-color: thistle;
+    }
+    &__btn--skills:hover{
+        background-color: whitesmoke;
+        color: crimson;
+    }
+    &__projects{
+        width: 100%;
+        height: 650px;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        border-radius: 4%;
+        background: linear-gradient(white, lightgrey);
+    }
+    &__cards{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: linear-gradient(white, crimson);
+    }
+    &__hobbies{
+        padding: 10%;
+    }
+    &__contacme{
+        padding: 10%;
+    }
+    &__form{
+        padding: 4%;
+        border-radius: 5%;
+        background: -webkit-linear-gradient(white, crimson);
+        text-align: center;
+    }
+    &__form div{
+        text-align: center;
+        margin: 2%;
+        margin-left: 19%;
+    }
+}
+
+
+@media screen and (max-width:1028px){
+
+    .section{
+        &__home{
+            width: 90%;
+            height: 500px;
+            padding: 15px;
+            margin-top: 50px;
+            margin-left: 0%;
+            overflow: hidden;
+            border-left: none;
+        }
+        &__profile{
+            width: 70%;
+            height: 300px;
+            margin: 0%;
+            text-align: center;
+            float: left;
+            border-right: solid crimson;
+            /*background-color:blue; */
+        }
+        &__picture{
+            width: 155px;
+            height: 150px;
+            margin-top: 28px;
+            margin-left: 0%;
+            float: right;
+        }
+        &__profilepic{
+            width: 150px;
+            height: 150px;
+            border-radius: 150px;
+            border-color: crimson;
+            border-style: solid;
+        }
+        &__icons{
+            color: #FFFFFF;
+            margin: 10px;
+            font-size: 65px;
+            padding: 8px;
+            transition: .3s linear;
+        }
+    }
+    
+}
+
+
+/*About me*/
+
+
+@media screen and (max-width:600px){
+
+    .section{
+        &__presentation{
+            width: 100%;
+            height: 30%;
+            margin-left: 0;
+        }
+        &__title{
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+        }
+        &__par{
+            width: 100%;
+            height: 80px;
+            padding: 2px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+    
+}
+
+
+@media screen and (max-width:1026px){
+
+    .section{
+        &__about{
+            width: 100%;
+            height: 100%;
+        }
+        &__containerinfo{
+            width: 100%;
+            height: 90%;
+            margin-left: 0%;
+        }
+        &__info{
+            width: 100%;
+            height: 305px;
+            margin: 0%;
+            border-right: none;
+            border-bottom: crimson;
+        }
+        &__aboutpic{
+            width: 320px;
+            height: 300px;
+        }
+        &__aboutinfo{
+            width: 100%;
+            height: 90%;
+            overflow: hidden;
+            margin: 0%;
+            text-align: center;
+        }
+        &__btn{
+            margin: 0%;
+        }
+    }
+}
+
+
+/*SKILLS*/
+
+
+@media screen and (max-width:1025px){
+
+    .section{
+        &__skills{
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            margin-top: 50px;
+            overflow: hidden;
+            background-color: lightgrey;
+        /*background-image: url(/images/aboutwall.jpg);*/
+            background-size: cover;
+            background-position: center;
+        }
+        &__containerskills{
+            width: 100%;
+            height: 100%;
+            margin: 0%;
+            background: repeating-linear-gradient(black, rgb(51, 50, 50));
+        }      
+        &__frontend{
+            width: 350px;
+            height: 350px;
+            margin: 0%;
+            background-color: black;
+            border-bottom: 1px solid white;
+            text-align: center;
+            float: left;
+        }
+        &__backend{
+            width: 350px;
+            height: 350px;
+            margin: 0%;
+            text-align: center;
+            float: right;
+            background-color: black;
+        }
+        &__icons{
+            color: #FFFFFF;
+            margin: 12px;
+            font-size: 55px;
+            padding: 8px;
+            transition: .3s linear;
+        }
+        &__projects{
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            margin-top: 50px;
+            overflow: hidden;
+            background-color: lightgrey;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+   
+}
